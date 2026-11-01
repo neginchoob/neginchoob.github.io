@@ -1,0 +1,17 @@
+[
+ {
+  "id": "melamine",
+  "name": "ملامینه",
+  "thumbnail": "thumbnails/thumbnail_melamine.jpg"
+ },
+ {
+  "id": "parquet",
+  "name": "پارکت",
+  "thumbnail": "thumbnails/thumbnail_parquet.jpg"
+ },
+ {
+  "id": "export",
+  "name": "صادراتی",
+  "thumbnail": "thumbnails/thumbnail_export.jpg"
+ }
+]

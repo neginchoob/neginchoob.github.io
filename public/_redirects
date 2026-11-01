@@ -1,0 +1,4 @@
+# Old admin panel no longer exists
+/admin   /   301
+# Single-page app: every route (e.g. /gallery/export from printed QR codes) loads index.html
+/*       /index.html   200

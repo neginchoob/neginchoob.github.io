@@ -1,0 +1,7 @@
+# Apache / cPanel hosting: send every route (e.g. /gallery/export) to index.html
+Options -MultiViews
+RewriteEngine On
+RewriteRule ^admin/?$ / [R=301,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
